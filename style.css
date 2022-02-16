@@ -14,13 +14,19 @@ html, body{
     width: 100vw;
     background: rgb(19, 39, 59);
     background: linear-gradient(90deg, rgb(18, 35, 53) 0%, rgb(5, 22, 36) 100%);
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .navigation{
     width: 100%;
     height: var(--bar-width);
+    background: rgb(19, 39, 59);
+    background: linear-gradient(90deg, rgb(18, 35, 53) 0%, rgb(5, 22, 36) 100%);
     overflow: hidden;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    padding: 10px;
 }
 
 .navigation a {
@@ -64,7 +70,7 @@ html, body{
 
 
 .content{
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 100%;
 }
@@ -129,4 +135,20 @@ html, body{
 #icons-link:hover{
     font-size: 30px;
     color: var(--green-color);
+}
+
+
+.box01{
+    width: 60%;
+    height: 60%;
+    background-color: antiquewhite;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content-02{
+    width: 100%;
+    height: 100%;
 }

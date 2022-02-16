@@ -11,13 +11,13 @@
 </head>
 <body>
     <div class="navigation">
-        <a class="active" href="#home"> <span id="nav-nmbrs">04. </span> Contact</a>
-        <a href="#news"><span id="nav-nmbrs">03. </span> Work</a>
-        <a href="#contact"><span id="nav-nmbrs">02. </span> Experience</a>
-        <a href="#about"><span id="nav-nmbrs">01. </span> About</a>
+        <a href="#04"> <span id="nav-nmbrs">04. </span> Contact</a>
+        <a href="#03"><span id="nav-nmbrs">03. </span> Work</a>
+        <a href="#02"><span id="nav-nmbrs">02. </span> Experience</a>
+        <a href="#01"><span id="nav-nmbrs">01. </span> About</a>
     </div>
 
-    <div class="content">
+    <div class="content" id="01">
         <!-- LINKS TO OTHER PLATFORMS START -->
         <div class="side">
 
@@ -49,12 +49,12 @@
         <!-- END -->
 
 
+        <div class="box01">
 
-
-
-
-
-
+        </div>
+    </div>
+    <!-- 02 -->
+    <div class="content-02" id="02">
 
     </div>
 </body>
