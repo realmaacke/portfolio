@@ -38,6 +38,9 @@ body, html
     border: 2px solid var(--green);
 
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+
+    padding: 10px;
     
 }
 
@@ -56,6 +59,7 @@ body, html
 .header_user_box{
     display: flex;
     width: 25%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
 .header_user_box > .header_user_box_img{
@@ -94,8 +98,58 @@ body, html
 
 
 .default_body{
-
+    width: 100%;
+    height: 78%;
+    display: flex;
 }
+
+
+.default_body > div{
+    padding: 10px;
+    margin: 10px;
+}
+
+.body_section {
+    width: 33%;
+    display: block;
+    padding: 10px;
+}
+
+.body_section_top{
+    width: 100%;
+    height: 50%;
+}
+
+.body_section_bottom{
+    width: 100%;
+    height: 50%;
+}
+
+#canvas_section{
+    margin: 0 auto;
+}
+
+.body_canvas_parent{
+
+    width: 90%;
+    height: 90%;
+
+    /* pos */
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+    background-color: white;
+}
+
+canvas{
+    max-width: 510px;
+    max-height: 310px;
+}
+
+
 
 .default_footer{
     /* pos */
