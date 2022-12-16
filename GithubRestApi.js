@@ -80,17 +80,8 @@ $.getJSON(apirepo + '/repos', function (data) {
             item_desc.textContent = desc;
 
         body_item_p.textContent = topic;
-        
-        // title = document.getElementById('item_title');
-        // description = document.getElementById('item_desc');
 
+        console.log(name);
 
-        // title.textContent = `${v.description} | Stars: ${v.watchers}`
-
-        // listrepos.appendChild(listItemRepo)
-        // hlink = document.createElement('a')
-        // listItemRepo.appendChild(hlink)
-        // hlink.textContent = `${v.description} | Stars: ${v.watchers}`
-        // hlink.href = v.html_url
     })
 })
