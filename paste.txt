@@ -1,0 +1,177 @@
+                    <div class="side_section_row">
+
+                        <div class="side_section_item">
+
+                            <div class="item_top">
+                                <i class="fa-regular fa-folder"></i>
+                            </div>
+
+                            <div class="item_body">
+                                <a href="https://github.com/realmaacke/Terminal">
+                                    <span id="body_h1">Terminal</span> 
+                                    <br>
+                                    <span id="body_p"> Building a custom cli with basic cmds, </span>
+                                    <br>
+                                    <span id="body_p">Pre released on github.</span> 
+                                </a>
+                            </div>
+
+                            <div class="item_footer">
+                                <p>C#, .NET 8.01</p>
+                            </div>
+
+                        </div>
+
+                        <div class="side_section_item">
+
+                            <div class="item_top">
+                                <i class="fa-regular fa-folder"></i>
+                            </div>
+
+                            <div class="item_body">
+                                <a href="https://github.com/realmaacke/SocialNetwork">
+                                    <span id="body_h1">Combined</span> 
+                                    <br>
+                                    <span id="body_p"> Social Network web app</span>
+                                    <br>
+                                    <span id="body_p">With Interactive systems</span> 
+                                </a>
+                            </div>
+
+                            <div class="item_footer">
+                                <p>PHP, MYSQL, Apache, JS, HTML, CSS3</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    
+                    
+                    <div class="side_section_row">
+
+                        <div class="side_section_item">
+
+                            <div class="item_top">
+                                <i class="fa-regular fa-folder"></i>
+                            </div>
+
+                            <div class="item_body">
+                                <a href="#">
+                                    <span id="body_h1">RealEngine</span> 
+                                    <br>
+                                    <span id="body_p">Javascript FrameWork</span>
+                                    <br>
+                                    <span id="body_p">Used for 2D Game development</span> 
+                                </a>
+                            </div>
+
+                            <div class="item_footer">
+                                <p>Javascript, HTML, CSS</p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="side_section_item">
+
+                            <div class="item_top">
+                                <i class="fa-regular fa-folder"></i>
+                            </div>
+
+                            <div class="item_body">
+                                <a href="#">
+                                    <span id="body_h1">Empty</span> 
+                                    <br>
+                                    <span id="body_p"> Description</span>
+                                    <br>
+                                    <span id="body_p"></span> 
+                                </a>
+                            </div>
+
+                            <div class="item_footer">
+                                <p>Language Used</p>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+            .side_section_container{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+
+}
+
+.side_section_row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50%;
+}
+
+.side_section_row > div{
+    padding: 10px;
+    margin: 10px;
+}
+
+.side_section_item{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.item_top{
+    width: 100%;
+    height: 25%;
+}
+
+.item_top i {
+    font-size: 40px;
+    color: var(--green);
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.item_body{
+    width: 100%;
+    height: 50%;
+    padding: 10px;
+}
+
+.item_body a {
+    padding-left: 10px;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+
+    text-decoration: none;
+}
+
+.item_body a:hover{
+    color: var(--green);
+}
+
+#body_h1{
+    font-size: 25px;
+}
+
+#body_p{
+    padding-left: 10px;
+}
